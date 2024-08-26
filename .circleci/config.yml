@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: pip install -r requirements.txt
+          command: pip install -r /home/nico/Documents/ajedrez/ajedrez-2024-nicolasventin/requirements.txt 
       - run:
           name: Running Tests
           command: coverage run -m unittest && coverage xml && coverage report -m
