@@ -8,5 +8,7 @@ class Rook(Piece):
         else:
             return "♖"
         
-def rook_move(self, from_row, from_col, to_row, to_col):
-        pass
+    def rook_move(self, from_row, from_col, to_row, to_col):
+        if from_row == to_row or from_col == to_col: # falta la logica de saber si hay un enemigo en la casilla o no para saber si es un movimiento legal
+            return True
+        return False
