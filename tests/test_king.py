@@ -16,3 +16,6 @@ class TestKing(unittest.TestCase):
 
     def test_king_invalid_moves(self):
         self.assertFalse(self.white_king.king_move(4, 4, 6, 6))  # Fuera de rango
+
+if __name__ == '__main__':
+    unittest.main()

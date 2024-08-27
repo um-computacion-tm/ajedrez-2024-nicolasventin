@@ -1,4 +1,4 @@
-from rook import Rook
+from game.rook import Rook
 
 
 class Board:
